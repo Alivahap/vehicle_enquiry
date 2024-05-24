@@ -1,0 +1,8 @@
+name: 'Vehicle Enquiry Module'
+type: module
+description: 'A custom module to make vehicle enquiries using an API key.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+ 
+ 

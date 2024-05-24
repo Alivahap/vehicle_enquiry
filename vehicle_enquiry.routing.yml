@@ -1,0 +1,16 @@
+vehicle_enquiry.form:
+  path: '/vehicle-enquiry/form'
+  defaults:
+    _form: '\Drupal\vehicle_enquiry\Form\VehicleEnquiryForm'
+    _title: 'Vehicle Enquiry Form'
+  requirements:
+    _permission: 'access content'
+
+vehicle_enquiry.data:
+  path: '/vehicle-enquiry/data/{registration_number}'
+  defaults:
+    _controller: '\Drupal\vehicle_enquiry\Controller\VehicleController::enquireVehicle'
+    _title: 'Vehicle Enquiry Data'
+  requirements:
+    _permission: 'access content'
+ 
